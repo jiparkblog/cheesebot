@@ -23,16 +23,6 @@ p {
 	text-align: center;
 }
 
-.codingnexus {
-	color: #fff;
-	margin-top: 15px;
-	font-size: 12px;
-}
-.codingnexus a {
-	color: #fff;
-	text-decoration: none;
-}
-
 #loading {
 	font-size: 50px;
 }
@@ -137,9 +127,9 @@ p {
 
 /* Add some hover effects to the button */
 .chat-box-footer button:hover {
-	background-color: #0073e6;
+	background-color: #950000;
 }
 
 .chat-box-footer button:active {
-	background-color: #005bbf;
+	background-color: #950000;
 }
