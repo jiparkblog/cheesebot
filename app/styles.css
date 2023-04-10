@@ -1,0 +1,145 @@
+@font-face {
+	font-family: "Mabry";
+	src: url("MabryPro-Regular.otf") format("opentype");
+}
+
+body {
+	font-family: "Mabry", sans-serif;
+	background: #fffcf5;
+	background-size: cover;
+	background-position: center center;
+	font-smoothing: antialiased;
+	background-image: url("cheese.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: bottom 50px right 20px;
+}
+p {
+	line-height: 110%;
+}
+
+.logo-container {
+	width: 100%;
+	text-align: center;
+}
+
+.codingnexus {
+	color: #fff;
+	margin-top: 15px;
+	font-size: 12px;
+}
+.codingnexus a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#loading {
+	font-size: 50px;
+}
+
+/* Style the chat box */
+.chat-box {
+	margin: 0 auto;
+	width: 600px;
+	max-width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	height: calc(100vh - 50px);
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+.codingnexus {
+	width: 100%;
+	text-align: center;
+}
+
+/* Style the chat box header */
+.chat-box-header {
+	/* background-color: #eb0000; */
+	color: white;
+	padding: 16px;
+	font-size: 20px;
+	font-weight: bold;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+/* Style the chat box body */
+.chat-box-body {
+	padding: 16px;
+	overflow-y: auto;
+	height: calc(100% - 200px);
+}
+
+/* Style the chat messages */
+.chat-box-body .message,
+.chat-box-body .response {
+	margin-bottom: 16px;
+	padding: 10px 8px;
+	border-radius: 8px;
+}
+p {
+	margin: 0;
+}
+
+/* Style the user's messages */
+.chat-box-body .message {
+	background-color: #f5e1cd;
+	color: black;
+}
+
+/* Style the chatbot's responses */
+.chat-box-body .response {
+	background-color: #eb0000;
+	color: white;
+	text-align: left;
+}
+
+/* Style the chat box footer */
+.chat-box-footer {
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	font-family: "Mabry", sans-serif;
+}
+
+/* Style the input field */
+.chat-box-footer input[type="text"] {
+	font-family: "Mabry", sans-serif;
+	flex: 1;
+	padding: 8px;
+	background: transparent;
+	border: 1px solid #e6e6e6;
+	border-radius: 6px;
+	font-size: 16px;
+	outline: none;
+}
+
+/* Style the button */
+.chat-box-footer button {
+	font-family: "Mabry", sans-serif;
+	margin-left: 8px;
+	padding: 8px 16px;
+	background-color: #eb0000;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+/* Add some hover effects to the button */
+.chat-box-footer button:hover {
+	background-color: #0073e6;
+}
+
+.chat-box-footer button:active {
+	background-color: #005bbf;
+}
